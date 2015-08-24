@@ -20,7 +20,7 @@ If you want to go ultra-golfing for dirty stuff, use bash. There was not enough 
 
 ## Cons of Tcl
 
--   There are 4 forms of `true` and `false`: 0, 1, yes, no, true, false, on, or off. Great.
+-   There are 4 forms of `true` and `false`: `0`, `1`, `yes`, `no`, `true`, `false`, `on`, or `off`. Great.
 
 -   No up arrow in tclsh: <http://stackoverflow.com/questions/3041530/how-to-get-command-history-by-cursor-key-in-linux-tclsh-tcl>
 
