@@ -12,6 +12,7 @@ source {shared.tcl}
     # - multiple strings, space concatenates them, and evaluates it
 
     # Be sane and always pass a single string to it.
+    # http://wiki.tcl.tk/10225
 
     # http://stackoverflow.com/questions/27927870/is-this-a-bug-in-tcl8-5-8-6-expr-command
 

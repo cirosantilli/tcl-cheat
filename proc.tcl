@@ -1,19 +1,24 @@
 #!/usr/bin/env tclsh
 
+source {shared.tcl}
+
 ## proc
 
 ## Functions
-
-source {shared.tcl}
 
 ## Return value
 
     proc f {} {
         return {a}
     }
-    assert [ expr {[f] eq {a}} ]
+    assert [expr {[f] eq {a}}]
 
     proc f {x} {
-        return [ expr $x + 1 ]
+        return [expr $x + 1]
     }
-    assert [ expr {[f 1] == 2} ]
+    assert [expr {[f 1] == 2}]
+
+    proc f {x y} {
+        return [expr $x + $y]
+    }
+    assert [expr {[f 1 2] == 3}]

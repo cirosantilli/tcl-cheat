@@ -1,10 +1,10 @@
 #!/usr/bin/env tclsh
 
+source {shared.tcl}
+
 ## set
 
 ## Variables
-
-source {shared.tcl}
 
 set a 1
 assert [string equal $a 1]
